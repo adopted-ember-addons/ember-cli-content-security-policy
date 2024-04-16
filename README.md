@@ -142,6 +142,8 @@ module.exports = function (environment) {
       'img-src': ["'self'"],
       // Allow CSS loaded from https://fonts.googleapis.com
       'style-src': ["'self'", 'https://fonts.googleapis.com'],
+      // Allow manifest from the origin itself (i.e. current domain)
+      'manifest-src': ["'self'"],
       // Omit `media-src` from policy
       // Browser will fallback to default-src for media resources (which is 'none', see above)
       'media-src': null,
