@@ -36,6 +36,7 @@
     "@ember/test-helpers": "^2.9.3",
     "@embroider/test-setup": "^0.49.0",
     "@glimmer/tracking": "^1.1.2",
+    "@glimmer/manager": "^0.84.3",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "chai": "^4.3.0",
