@@ -78,7 +78,7 @@
     "semver": "^7.3.5"
   },
   "engines": {
-    "node": "12.* || 14.* || >= 16"
+    "node": ">= 18"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
